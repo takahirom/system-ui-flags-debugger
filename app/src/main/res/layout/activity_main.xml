@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22ff0000"
+    tools:context=".MainActivity">
+
+    <View
+        android:background="#00FF00"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <View
+        android:background="#00F0F0"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="1dp" />
+    <View
+        android:background="#F000F0"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="bottom"
+        android:layout_height="1dp" />
+    <View
+        android:background="#0000FF"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="1dp" />
+
+    <ScrollView
+        android:padding="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/checks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
